@@ -66,7 +66,7 @@ public class TestMySecondJavaFXWindow {
         assertEquals(400, stage.getHeight());
     }
 
-    @Disabled
+
     @Test
     public void should_initialize_stage_with_width_of_800() {
         assertEquals(800, stage.getWidth());

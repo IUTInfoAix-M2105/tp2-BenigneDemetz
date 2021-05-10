@@ -12,5 +12,6 @@ public class MySecondJavaFXWindow extends Application {
     @Override
     public void start(Stage primaryStage) throws Exception {
         primaryStage.setTitle("Second Useless JavaFX Window");
+        primaryStage.setAlwaysOnTop(true);
     }
 }

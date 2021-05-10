@@ -13,5 +13,6 @@ public class MySecondJavaFXWindow extends Application {
     public void start(Stage primaryStage) throws Exception {
         primaryStage.setTitle("Second Useless JavaFX Window");
         primaryStage.setAlwaysOnTop(true);
+        primaryStage.setResizable(false);
     }
 }

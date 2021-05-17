@@ -15,5 +15,6 @@ public class MyUndecoratedJavaFXWindow extends Application {
         primaryStage.setAlwaysOnTop(true);
         primaryStage.setResizable(false);
         primaryStage.setHeight(400);
+        primaryStage.setWidth(800);
     }
 }

@@ -59,7 +59,7 @@ public class TestMyUndecoratedJavaFXWindow {
         assertFalse(stage.isShowing());
     }
 
-    @Disabled
+
     @Test
     public void should_initialize_stage_with_correct_title() {
         assertEquals("Undecorated Useless JavaFX Window", stage.getTitle());

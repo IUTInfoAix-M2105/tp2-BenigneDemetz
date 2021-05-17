@@ -86,7 +86,7 @@ public class TestHelloBeautifulButton {
         verifyThat("#buttonHello", hasText("Hello !"));
     }
 
-    @Disabled
+
     @Test
     public void should_initialize_stage_with_useless_button() {
         verifyThat("#buttonHello", (Button node) -> node.getOnAction() == null);

@@ -2,6 +2,7 @@ package fr.univ_amu.iut.exercice5;
 
 import javafx.application.Application;
 import javafx.stage.Stage;
+import javafx.stage.StageStyle;
 
 public class MyUndecoratedJavaFXWindow extends Application {
 
@@ -16,5 +17,6 @@ public class MyUndecoratedJavaFXWindow extends Application {
         primaryStage.setResizable(false);
         primaryStage.setHeight(400);
         primaryStage.setWidth(800);
+        primaryStage.initStyle(StageStyle.UNDECORATED);
     }
 }

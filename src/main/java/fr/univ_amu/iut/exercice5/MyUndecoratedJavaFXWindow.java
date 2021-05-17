@@ -14,5 +14,6 @@ public class MyUndecoratedJavaFXWindow extends Application {
         primaryStage.setTitle("Undecorated Useless JavaFX Window");
         primaryStage.setAlwaysOnTop(true);
         primaryStage.setResizable(false);
+        primaryStage.setHeight(400);
     }
 }

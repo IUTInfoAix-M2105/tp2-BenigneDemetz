@@ -77,7 +77,7 @@ public class TestMyUndecoratedJavaFXWindow {
         assertFalse(stage.isResizable());
     }
 
-    @Disabled
+
     @Test
     public void should_initialize_stage_with_height_of_400() {
         assertEquals(400, stage.getHeight());

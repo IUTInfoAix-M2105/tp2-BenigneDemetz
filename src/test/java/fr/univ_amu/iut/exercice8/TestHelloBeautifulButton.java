@@ -23,7 +23,6 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 import static org.testfx.api.FxAssert.verifyThat;
 import static org.testfx.util.NodeQueryUtils.hasText;
 
-@Disabled
 @ExtendWith(ApplicationExtension.class)
 public class TestHelloBeautifulButton {
 
@@ -57,7 +56,7 @@ public class TestHelloBeautifulButton {
         robot.release(new MouseButton[]{});
     }
 
-    @Disabled
+
     @Test
     public void should_initialize_stage_with_correct_title() {
         assertEquals("Hello !", stage.getTitle());

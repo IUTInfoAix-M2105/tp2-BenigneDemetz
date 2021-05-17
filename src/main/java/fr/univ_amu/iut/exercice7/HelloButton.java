@@ -11,6 +11,12 @@ public class HelloButton extends Application {
         primaryStage.setTitle("Hello !");
         primaryStage.setHeight(100);
         primaryStage.setWidth(250);
+
+        Button button = new Button("Hello !");
+        button.setId("buttonHello");
+
+        Scene scene = new Scene(button, 200, 100);
+        primaryStage.setScene(scene);
         primaryStage.show();
     }
 }

@@ -10,6 +10,7 @@ public class HelloBeautifulButton extends Application {
     public void start(Stage primaryStage) throws Exception {
         primaryStage.setTitle("Hello !");
         primaryStage.setHeight(250);
+        primaryStage.setWidth(250);
         primaryStage.show();
     }
 }

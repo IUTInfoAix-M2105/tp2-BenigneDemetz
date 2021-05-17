@@ -12,5 +12,6 @@ public class MyUndecoratedJavaFXWindow extends Application {
     @Override
     public void start(Stage primaryStage) throws Exception {
         primaryStage.setTitle("Undecorated Useless JavaFX Window");
+        primaryStage.setAlwaysOnTop(true);
     }
 }

@@ -65,7 +65,7 @@ public class TestMyUndecoratedJavaFXWindow {
         assertEquals("Undecorated Useless JavaFX Window", stage.getTitle());
     }
 
-    @Disabled
+
     @Test
     public void should_initialize_stage_is_always_on_top() {
         assertTrue(stage.alwaysOnTopProperty().get());

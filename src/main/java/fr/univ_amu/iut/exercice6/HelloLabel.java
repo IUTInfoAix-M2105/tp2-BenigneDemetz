@@ -8,5 +8,6 @@ public class HelloLabel extends Application {
     public void start(Stage primaryStage) throws Exception {
         primaryStage.setTitle("Hello !");
         primaryStage.show();
+        primaryStage.setHeight(100);
     }
 }

@@ -9,5 +9,6 @@ public class HelloLabel extends Application {
         primaryStage.setTitle("Hello !");
         primaryStage.show();
         primaryStage.setHeight(100);
+        primaryStage.setWidth(250);
     }
 }

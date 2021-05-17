@@ -68,7 +68,7 @@ public class TestHelloBeautifulButton {
         assertTrue(stage.isShowing());
     }
 
-    @Disabled
+
     @Test
     public void should_initialize_stage_with_height_of_250() {
         assertEquals(250, stage.getHeight());

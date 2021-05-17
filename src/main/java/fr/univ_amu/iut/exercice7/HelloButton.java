@@ -9,5 +9,6 @@ public class HelloButton extends Application {
     @Override
     public void start(Stage primaryStage) throws Exception {
         primaryStage.setTitle("Hello !");
+        primaryStage.show();
     }
 }

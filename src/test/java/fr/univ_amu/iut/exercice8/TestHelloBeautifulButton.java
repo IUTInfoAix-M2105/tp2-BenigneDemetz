@@ -80,7 +80,7 @@ public class TestHelloBeautifulButton {
         assertEquals(250, stage.getWidth());
     }
 
-    @Disabled
+
     @Test
     public void should_initialize_button_with_text_hello() {
         verifyThat("#buttonHello", hasText("Hello !"));

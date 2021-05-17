@@ -25,8 +25,8 @@ public class HelloBeautifulButton extends Application {
         iv1.setImage(image);
         button.setGraphic(iv1);
 
-        Scene scene = new Scene(button, 200, 100);
-
+        Scene scene = new Scene(button, 200, 250);
+        scene.getStylesheets().add(getClass().getClassLoader().getResource("DarkTheme.css").toExternalForm());
         primaryStage.setScene(scene);
 
         primaryStage.show();
